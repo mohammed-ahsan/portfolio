@@ -1,20 +1,34 @@
-import { Navbar } from "./components/Navbar";
-import { Home } from "./components/Home"
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
 import About from "./components/About";
 import MyStack from "./components/MyStack";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Blogs from "./components/Blogs";
 import "./components/styles.scss";
-
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="select-none">
-<Navbar/>
-<Home/>
-<About/>
-<MyStack/>
-<Projects/>
+      <Navbar />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Home />
+              <Projects />
+            </>
+          }
+        />
 
+        <Route path="/About" element={<About />} />
+        <Route path="/MyStack" element={<MyStack />} />
+        <Route path="/Blogs" element={<Blogs />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Projects" element={<Projects />} />
+      </Routes>
     </div>
   );
 }

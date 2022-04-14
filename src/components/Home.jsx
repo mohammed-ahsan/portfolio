@@ -2,7 +2,8 @@ import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import mypaint from "../assets/mypaint.png";
 import "./styles.scss";
-
+import { Link } from "react-scroll";
+import Projects from "./Projects";
 export const Home = () => {
   return (
     <div name="home" className="w-full h-screen  bg-[#0d2614] ">
@@ -17,7 +18,7 @@ export const Home = () => {
             <h1 className="text-4xl sw:text-7xl font-bold md:pt-4 ">
               Mohammed Ahsan
             </h1>
-            <h2 className=" font-bold text-[#FFEAD7] md:pt-4  ">
+            <h2 className="tracking-widest font-bold text-[#FFEAD7] md:pt-4  ">
               I'm a Full Stack Developer
             </h2>
             <p className="text-[#cfddda] md:pt-4">
@@ -38,12 +39,15 @@ export const Home = () => {
               </ul>
             </div>
           </div>
-          <button className="text-white rounded-2xl h-[30%] m-auto group border-2 border-[#8b8574]  flex items-center hover:bg-[#8b8574] duration-300  py-8 px-14 hover:-translate-y-5  ">
-            <p className="">Explore Projects</p>
-            <span className="group-hover:rotate-90 duration-300">
-              <HiArrowNarrowRight className="ml-3 " />
-            </span>
-          </button>
+
+          
+            <Link className="text-white cursor-pointer rounded-2xl h-[30%] m-auto group border-2 border-[#8b8574]  flex items-center hover:bg-[#8b8574] duration-300  py-8 px-14 hover:-translate-y-5  " to="Projects" spy={true} smooth={true}>
+              <p className="">Explore Projects</p>
+              <span className="group-hover:rotate-90 duration-300">
+                <HiArrowNarrowRight className="ml-3 " />
+              </span>
+            </Link>
+          
         </div>
       </div>
     </div>

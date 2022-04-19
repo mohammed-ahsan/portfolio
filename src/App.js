@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import Blogs from "./components/Blogs";
 import "./components/styles.scss";
 import { Routes, Route } from "react-router-dom";
+import SinglePost from "./components/SinglePost";
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
         <Route path="/MyStack" element={<MyStack />} />
         <Route path="/Blogs" element={<Blogs />} />
         <Route path="/Contact" element={<Contact />} />
-        <Route path="/Projects" element={<Projects />} />
+        <Route element={<SinglePost/>} path="/post/:slug" />
+        
       </Routes>
     </div>
   );

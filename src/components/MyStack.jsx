@@ -11,10 +11,10 @@ const MyStack = () => {
       {/*container*/}
       <div className="w-[90%] h-[90%] m-auto">
         <div className="text-gray-300 w-full grid md:grid-cols-2 mx-auto  gap-4 text-center p-8 duration-500">
-          <div className="p-4 md:w-[80%] m-auto text-2xl rounded-xl border-2 border-[#8b8574]  w-full">
-            <p className="font-thin">
+          <div className="p-4 md:w-[80%] m-auto text-2xl rounded-xl border-2 border-[#8b8574] shadow-md shadow-[#8b8574] w-full">
+            <div className="font-thin">
               These are the <br/><h2 className="tracking-widest font-semibold">[technologies]</h2> I've been learning and I'm very much enthusiastic in <h2 className="trackind-wider font-medium">Rust</h2> and <h2 className="trackind-wider font-medium">WebAssembly</h2> 
-            </p>
+            </div>
 
           </div>
           <div className="grid grid-cols-2 gap-4">

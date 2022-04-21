@@ -7,9 +7,9 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import ScrollToTop from "react-scroll-to-top";
 
-import Project1 from "../assets/project1.png";
-import Project2 from "../assets/project2.png";
-import Project3 from "../assets/project3.png";
+import Project1 from "../assets/project1.jpg";
+import Project2 from "../assets/project2.jpg";
+import Project3 from "../assets/project3.jpg";
 
 const Projects = () => {
   const [proj, setproj] = useState(true);
@@ -38,7 +38,7 @@ const Projects = () => {
       <ScrollToTop color="#0d2614"  smooth viewBox="0 0 206 256" />
       {/*container*/}
       <div className="flex flex-col md:pt-[7.5%] pt-[15%] w-[95%] mx-auto">
-        <p className="py-[8px] text-center text-xl text-[#FFEAD7]">
+        <p className="py-[8px] text-center text-xl font-semibold text-[#FFEAD7]">
           My Projects
         </p>
         {/*tabs*/}
@@ -127,9 +127,9 @@ const Projects = () => {
                         </p>
                         <p className="text-sm text-gray-600">Stack:React, sanity.io</p>
                       </div>
-                      <button className="right-0 font-semibold mx-auto  border-2 p-2 md:p-4 rounded-full bg-gray-300 hover:bg-gray-400 duration-300 my-auto">
+                      <a href='https://portfolio-ebon-ten.vercel.app/' className="right-0 font-semibold mx-auto  border-2 p-2 md:p-4 rounded-full bg-gray-300 hover:bg-gray-400 duration-300 my-auto">
                         Live
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -180,7 +180,7 @@ const Projects = () => {
                         <p className="border-b-2 text-md md:w-auto w-fit mx-auto font-semibold text-gray-700">
                           Portfolio
                         </p>
-                        <p className="text-sm text-gray-600">Stack:React</p>
+                        <p className="text-sm text-gray-600">Stack:Next</p>
                       </div>
                       <button className="right-0 font-semibold mx-auto border-2 p-2 md:p-4 rounded-full bg-gray-300 hover:bg-gray-400 duration-300 my-auto">
                         Live
@@ -197,7 +197,7 @@ const Projects = () => {
                         <p className="border-b-2 text-md md:w-auto w-fit mx-auto font-semibold text-gray-700">
                           Portfolio
                         </p>
-                        <p className="text-sm text-gray-600">Stack:React</p>
+                        <p className="text-sm text-gray-600">Stack:Next</p>
                       </div>
                       <button className="right-0 font-semibold mx-auto border-2 p-2 md:p-4 rounded-full bg-gray-300 hover:bg-gray-400 duration-300 my-auto">
                         Live
@@ -234,7 +234,7 @@ const Projects = () => {
                         <p className="border-b-2 text-md md:w-auto w-fit mx-auto font-semibold text-gray-700">
                           Portfolio
                         </p>
-                        <p className="text-sm text-gray-600">Stack:React</p>
+                        <p className="text-sm text-gray-600">Stack:React Native</p>
                       </div>
                       <button className="right-0 font-semibold mx-auto border-2 p-2 md:p-4 rounded-full bg-gray-300 hover:bg-gray-400 duration-300 my-auto">
                         Live
@@ -253,7 +253,7 @@ const Projects = () => {
         <div className="parent w-[70%] mx-auto grid grid-cols-6 gap-4 mb-[100px]">
   <div className="child-1 rounded-t-lg duration-300 col-start-2 col-span-4 bg-gray-700 hover:bg-gray-900 p-3 border-2 border-[#8b8574] "><div className="text-[#e5dcc2] font-medium w-fit mx-auto">Clean & Optimized Code</div></div>
   <div className="child-2 rounded-l-lg duration-300 col-start-1 col-end-3 bg-gray-700 hover:bg-gray-900 p-3 border-2 border-[#8b8574]"><div className="text-[#e5dcc2] font-medium w-fit mx-auto">Lesser Bugs</div></div>
-<div className="m-auto col-start-3 col-span-2"> <div className="font-semibold text-[#e5dcc2] text-xl border-b-2 border-gray-500 ">PROJECT GOALS</div></div>
+<div className="m-auto col-start-3 col-span-2"> <div className="font-semibold text-[#e5dcc2] text-xl border-b-2 border-gray-500 ">PROJECT GOALS </div></div>
   <div className="child-3 rounded-r-lg  duration-300 col-end-7 col-span-2 bg-gray-700 hover:bg-gray-900 p-3 border-2 border-[#8b8574]"><div className="text-[#e5dcc2] font-medium w-fit mx-auto">Better SEO</div></div>
   <div className="child-4 rounded-b-lg   duration-300 col-start-1 col-end-7 bg-gray-700 hover:bg-gray-900 p-3 border-2 border-[#8b8574]"><div className="text-[#e5dcc2] font-medium w-fit mx-auto">High Performance & ReUsable</div></div>
 </div>

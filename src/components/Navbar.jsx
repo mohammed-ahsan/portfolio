@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa";
 
 import CustomLink from "./CustomLink.tsx";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.gif";
 import { Link } from "react-router-dom";
 
 

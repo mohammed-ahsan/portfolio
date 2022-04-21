@@ -1,9 +1,9 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import mypaint from "../assets/mypaint.png";
+import mypaint from "../assets/mypaint.gif";
 import "./styles.scss";
 import { Link } from "react-scroll";
-import Projects from "./Projects";
+
 export const Home = () => {
   return (
     <div name="home" className="w-full h-screen  bg-[#0d2614] ">

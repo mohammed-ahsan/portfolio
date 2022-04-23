@@ -180,7 +180,7 @@ const Projects = () => {
                         <p className="border-b-2 text-md md:w-auto w-fit mx-auto font-semibold text-gray-700">
                           News-App
                         </p>
-                        <p className="text-sm text-gray-600">Stack:Next</p>
+                        <p className="text-sm text-gray-600">Stack:NextJS with SSR in EOM & Feed</p>
                       </div>
                       <a href='https://next-news-eta-beryl.vercel.app' className="right-0 font-semibold mx-auto  border-2 p-2 md:p-4 rounded-full bg-gray-300 hover:bg-gray-400 duration-300 my-auto">
                         Live

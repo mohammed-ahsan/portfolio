@@ -30,7 +30,7 @@ const Blogs = () => {
           My Blogs!
         </h1>
 
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 lg:grid-cols-4 lg:gap-8 gap-4">
           {postData &&
             postData.map((post, index) => (
               <article>

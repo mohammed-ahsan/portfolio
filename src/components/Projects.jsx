@@ -173,18 +173,18 @@ const Projects = () => {
               >
                 <SwiperSlide>
                   <div className="flex flex-col">
-                    <img name="slide" className="rounded-b-lg" src={Project1} alt="Project_image" />
+                    <img name="slide" className="rounded-b-lg" src={Project3} alt="Project_image" />
                     <div className="flex md:flex-row gap-1 flex-col  md:w-[50%] h-[50%] p-2 border-2 bg-gradient-to-br from-[#8b8574] to-[#FFEAD7] rounded-xl m-auto">
                       <div className=" md:w-[50%] ">
                         
                         <p className="border-b-2 text-md md:w-auto w-fit mx-auto font-semibold text-gray-700">
-                          Portfolio
+                          News-App
                         </p>
                         <p className="text-sm text-gray-600">Stack:Next</p>
                       </div>
-                      <button className="right-0 font-semibold mx-auto border-2 p-2 md:p-4 rounded-full bg-gray-300 hover:bg-gray-400 duration-300 my-auto">
+                      <a href='https://next-news-eta-beryl.vercel.app' className="right-0 font-semibold mx-auto  border-2 p-2 md:p-4 rounded-full bg-gray-300 hover:bg-gray-400 duration-300 my-auto">
                         Live
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </SwiperSlide>
